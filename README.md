@@ -37,3 +37,17 @@ frase = input("Digite uma frase: "): Solicita ao usuário que digite uma frase e
 maiusculo = frase.title(): Converte a primeira letra de cada palavra na frase para maiúscula usando o método title() 
 e armazena o resultado na variável maiusculo.
 
+Challenge 5
+O código verifica se uma palavra é um anagrama e também um palíndromo.
+Ele remove os espaços em branco da palavra e converte todas as letras para minúsculas. 
+Em seguida, compara se a palavra original é igual à sua versão invertida. 
+Se forem iguais, a função retorna True, indicando que a palavra é um anagrama e um palíndromo. 
+Caso contrário, retorna False. O usuário pode digitar uma palavra e o resultado é impresso na tela.
+
+Principais comandos utulizados:
+
+def anagramaPalindromo(palavra): Define a função anagramaPalindromo que recebe uma palavra como entrada.
+palavra = palavra.replace(" ", "").lower(): Remove os espaços em branco da palavra e converte todas as letras para minúsculas.
+return palavra == palavra[::-1]: Retorna True se a palavra for um anagrama e um palíndromo.
+if anagramaPalindromo(palavra): Verifica o resultado retornado pela função anagramaPalindromo.
+
