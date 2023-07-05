@@ -13,4 +13,19 @@ O for char in string, itera por cada caractere da string de entrada.
 O if char not in letras, verifica se o caractere já existe.
 letras += char, adiciona o caractere à string letras.
 
+Challenge 3
+Verificando Palíndromo
+O código implementa uma função chamada palindromo que verifica se uma string é um palíndromo. 
+Ele remove os espaços em branco e converte a string para letras minúsculas. 
+Em seguida, compara se a string original é igual à sua versão invertida. 
+Se forem iguais, a função retorna True, indicando que a string é um palíndromo. 
+Caso contrário, retorna False.
+
+Principais comandos utilizados:
+string = string.replace(" ", "").lower(): Remove os espaços em branco e converte a string para letras minúsculas.
+if string == string[::-1]: Compara se a string original é igual à sua versão invertida.
+print(f"A ave '{ave}' é um palíndromo."): Imprime uma mensagem indicando que a string é um palíndromo.
+print(f"A ave '{ave}' não é um palíndromo."): Imprime uma mensagem indicando que a string não é um palíndromo.
+[::-1]: Utiliza a sintaxe [:: -1] para inverter a string. A primeira parte (:) indica o início, a segunda parte (:) indica o fim e a terceira parte (-1) percorre a string de trás para frente.
+
 
