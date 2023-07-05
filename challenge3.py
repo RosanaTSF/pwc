@@ -16,9 +16,3 @@ if resultado:
     print(f"A ave '{ave}' é um palíndromo.")
 else:
     print(f"A ave '{ave}' não é um palíndromo.")
-
-
-# Sintaxe [:: -1] possui três partes separadas pelo operador:
-# A primeira(:): começa o primeiro elemento.
-# A segunda(:): está indo até o último.
-# A terceira parte (-1): percorre de trás para frente.
