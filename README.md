@@ -28,4 +28,12 @@ print(f"A ave '{ave}' é um palíndromo."): Imprime uma mensagem indicando que a
 print(f"A ave '{ave}' não é um palíndromo."): Imprime uma mensagem indicando que a string não é um palíndromo.
 [::-1]: Utiliza a sintaxe [:: -1] para inverter a string. A primeira parte (:) indica o início, a segunda parte (:) indica o fim e a terceira parte (-1) percorre a string de trás para frente.
 
+Challenge 4
+O código frase como entrada do usuário, converte a primeira letra de cada palavra para maiúscula usando o método title(), e imprime a frase com as letras maiúsculas na tela.
+
+Principais comandos Utilizados:
+
+frase = input("Digite uma frase: "): Solicita ao usuário que digite uma frase e armazena o valor digitado na variável frase.
+maiusculo = frase.title(): Converte a primeira letra de cada palavra na frase para maiúscula usando o método title() 
+e armazena o resultado na variável maiusculo.
 
